@@ -6,7 +6,7 @@ The repostiory contains a collection of Jupyter notebooks for queries against Ba
 
 Examples include
 
-- Check course list: checks a list of known courses to see if they will be offered in a given semester
-
+- Check course list: checks a list of known courses to see if they will be offered in a given semester.
+- Calendar view: creates a calendar view (ics used by external program) for the purpose of visualizing course scheduling conflicts, given a dept code.
 
 Each notebook is mostly self-contained but may require installing [NuGet packages](https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference), which are units of deployment for .NET libraries. Because the library paths are hard coded in the notebooks, you may need to change the corresponding line as well.
